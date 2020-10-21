@@ -14,7 +14,10 @@
     .video-desc:before {
         width: 1050px;
     }
-
+    .works-img {
+        height: 280px;
+        width: 330px;
+    }
     #footer .row:before {
         width: 1050px;
     }
@@ -28,7 +31,9 @@
     .container {
         max-width: 900px;
     }
-
+    #projects {
+        padding-top: 1px;
+    }
     .standarts-content:before {
         width: 900px;
     }
@@ -49,7 +54,9 @@
         height: 250px;
         width: 280px;
     }
-
+    .works-title {
+        font-size: 32px;
+    }
     .footer-links {
         font-size: 11px;
     }
@@ -57,132 +64,131 @@
 
 @media (max-width: 992px) {
     .container {
-        max-width: 700px;
+        max-width: 730px;
+        padding: 0 15px;
     }
 
     .col-3 {
         width: 50%;
     }
-
+    .col-4 {
+        width: 100%;
+    }
+    .dif-width {
+        width: 33.3333%;
+    }
     .standarts-content:before {
-        width: 700px;
+        width: 730px;
     }
 
     .works-item:before {
-        width: 700px;
+        width: 730px;
         bottom: -624px;
     }
 
     .video-desc:before {
-        width: 700px;
+        width: 730px;
+        bottom: -531px;
     }
 
     footer .row:before {
-        width: 700px;
+        width: 730px;
     }
-
     .header-menu-list {
-        font-weight: 500;
-        font-size: 15px;
-        line-height: 20px;
-        color: #FFFFFF;
-        position: relative;
         margin-left: 20px;
     }
-
+    .hero-subtitle {
+        font-size: 41px;
+    }
     .creating-title {
-        font-size: 34px;
-
+        font-size: 30px;
+        margin-top: 44px;
     }
-
+    .creating-desc {
+        font-size: 15px;
+        margin-bottom: 35px;
+    }
+    .creating-websites-svg {
+        float: unset;
+        margin: auto;
+    }
+    .creating-websites-text {
+        margin-left: -11px;
+        text-align: center;
+        padding: unset;
+    }
     .creating-websites-title {
-        font-size: 16px;
+        margin: 10px 0;
+        font-size: 19px;
     }
-
     .creating-websites-desc {
-        font-size: 11px;
-        margin-bottom: 60px;
-        min-width: 130px;
-    }
-
-    .standarts-img {
-        height: 300px;
-    }
-
-    .standarts-title {
-        font-size: 24px;
-    }
-
-    .standarts-desc {
-        font-size: 11px;
-    }
-
-    .standarts-link {
-        font-size: 12px;
-    }
-
-    .works-img {
-        height: 226px;
-        width: 220px;
-    }
-
-    .works-item-title {
         font-size: 16px;
+        margin-bottom: 40px;
     }
-
+    .standarts-title {
+        font-size: 29px;
+    }
+    .standarts-desc {
+        font-size: 15px;
+    }
+    .works-img {
+        height: 240px;
+        width: 225px;
+    }
     .works-item-desc {
-        font-size: 13px;
+        font-size: 15px;
     }
-
-    .works-item-link {
-        font-size: 13px;
+    #projects {
+        padding-top: 1px;
+        margin-top: 444px;
     }
-
     .video-img {
         border-radius: 50px;
-        width: 750px;
-        height: 400px;
+        width: 700px;
+        height: 350px;
     }
-
+    #video {
+        margin-bottom: 210px;
+    }
     .footer-title-text {
-        font-size: 22px;
+        font-size: 19px;
         margin-top: 10px;
     }
-
     .footer-links {
-        font-size: 17px;
+        font-size: 14px;
     }
 }
 
 @media (max-width: 768px) {
-    body.lock {
-        overflow: hidden;
-    }
 
     .container {
         max-width: 500px;
+        padding: 0 20px;
     }
 
     .col-3 {
         width: 50%;
     }
+    .dif-width {
+        width: 100%;
+    }
 
     .standarts-content:before {
-        width: 500px;
+        width: 437px;
     }
 
     .works-item:before {
-        width: 500px;
-        bottom: -600px;
+        width: 437px;
+        bottom: -1650px;
     }
 
     .video-desc:before {
-        width: 500px;
+        width: 437px;
         bottom: -490px;
     }
 
     footer .row:before {
-        width: 500px;
+        width: 437px;
     }
 
     .header-menu {
@@ -191,9 +197,8 @@
 
     .mobile-menu {
         display: flex;
-        z-index: 999;
+        z-index: 9;
         position: fixed;
-        bottom: 89%;
     }
 
     .header-menu {
@@ -208,7 +213,7 @@
         flex-direction: column;
         transition: .7s;
         position: fixed;
-        z-index: 2222;
+        z-index: 8;
     }
 
     .header-menu-list {
@@ -238,17 +243,19 @@
     }
 
     .hero-subtitle {
-        font-weight: 800;
-        font-size: 31px;
+        font-size: 26px;
     }
 
     .creating-title {
-        font-size: 24px;
-        margin-top: 40px;
+        font-size: 21px;
+        margin-bottom: 13px;
     }
-
-    .creating-desc {
-        font-size: 11px;
+    .creating-websites-title {
+        font-size: 17px;
+        margin-top: 12px;
+    }
+    .creating-websites-desc {
+        font-size: 15px;
     }
     #standarts {
         padding-top: 20px;
@@ -285,22 +292,9 @@
         margin-left: -11px;
     }
 
-    .creating-websites-title {
-        font-size: 14px;
-        margin-top: 58px;
-    }
-
     .creating-websites-desc {
         font-size: 13px;
         min-width: 150px;
-    }
-
-    .creating-title {
-        font-size: 24px;
-    }
-
-    .creating-desc {
-        font-size: 20px;
     }
 
     .our-projects-number {
@@ -317,21 +311,24 @@
 
     .works-title {
         font-size: 23px;
+        color : black;
     }
-
+    .works-img {
+        height: 300px;
+        width: 350px;
+    }
     .hero-btn {
         font-size: 12px;
     }
     #projects {
         padding-top: 1px;
+        margin-top: 313px;
+        padding-bottom: 64px;
     }
     #works {
-        height: 338px;
+        height: 1638px;
         padding-top: 40px;
-    }
-    .works-img {
-        height: 180px;
-        width: 155px;
+        background:unset;
     }
     .watch-video {
         width: 260px;
@@ -342,23 +339,31 @@
         height: 40px;
     }
     .works-item-title {
-        font-size: 15px;
+        font-size: 17px;
     }
 
     .works-item-desc {
-        font-size: 10px;
+        font-size: 14px;
+    }
+    .works-item-link {
+        margin-bottom: 30px;
     }
     #video {
         margin-bottom: 150px;
     }
     .video-img {
         border-radius: 51px;
-        width: 500px;
-        height: 300px;
+        width: 440px;
+        height: 260px;
     }
-
+    .subscribe-desc {
+        font-size: 13px;
+    }
+    .subscribe-input {
+        padding: 14px 38px 12px 33px;
+    }
     .footer-title-text {
-        font-size: 16px;
+        font-size: 15px;
         margin-top: 10px;
         margin-bottom: unset;
     }
@@ -368,7 +373,7 @@
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 480px) {
     .container {
         width: 100%;
         padding: 0 20px;
@@ -406,7 +411,7 @@
 
     .works-item:before {
         width: 280px;
-        bottom: -1643px;
+        bottom: -1658px;
     }
 
     .video-desc:before {
@@ -421,7 +426,7 @@
         font-size: 14px;
     }
     .hero-subtitle {
-        font-size: 17px;
+        font-size: 19px;
     }
 
     .hero-btn {
@@ -495,11 +500,11 @@
     }
 
     .works-item-title {
-        font-size: 18px;
+        font-size: 17px;
     }
 
     .works-item-desc {
-        font-size: 15px;
+        font-size: 14px;
     }
 
     #projects {
@@ -526,7 +531,7 @@
     }
 
     .creating-desc {
-        font-size: 16px;
+        font-size: 15px;
         margin-bottom: 35px;
     }
 
@@ -566,8 +571,8 @@
     }
     .video-img {
         border-radius: 51px;
-        width: 360px;
-        height: 250px;
+        width: 299px;
+        height: 224px;
     }
     .watch-video {
         width: 176px;
