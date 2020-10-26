@@ -76,18 +76,17 @@ header .container {
     justify-content: center;
     align-items: center;
     padding: 5px;
-    position: absolute;
     right: 30px;
+    border: 3px solid #4985FF;
 }
 
 .mobile-menu span {
     height: 4px;
     width: 100%;
-    background: gold;
+    background: #4985FF;
     display: inline-block;
     position: relative;
     border-radius: 10px;
-    right: 10px;
 }
 
 .mobile-menu span:before {
